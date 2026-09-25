@@ -190,9 +190,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.text = new cjs.Text("30 %", "bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
+	this.text = new cjs.Text("30 %", "italic bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 193;
+	this.text.lineHeight = 194;
 	this.text.lineWidth = 328;
 	this.text.parent = this;
 	this.text.setTransform(0,-102.35);
@@ -217,9 +217,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.text = new cjs.Text("30 %", "bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
+	this.text = new cjs.Text("30 %", "italic bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 193;
+	this.text.lineHeight = 194;
 	this.text.lineWidth = 328;
 	this.text.parent = this;
 	this.text.setTransform(0,-102.35);
@@ -244,9 +244,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.text = new cjs.Text("30 %", "bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
+	this.text = new cjs.Text("30 %", "italic bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 193;
+	this.text.lineHeight = 194;
 	this.text.lineWidth = 328;
 	this.text.parent = this;
 	this.text.setTransform(0,-102.35);
@@ -1050,7 +1050,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_4 = new lib._0_precents("synched",0);
 	this.instance_4.setTransform(160,382.35,1,1,0,0,0,166,104.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(300));
+	this.text = new cjs.Text("", "170px 'PFDinTextCompPro-BoldItalic'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 194;
+	this.text.lineWidth = 100;
+	this.text.parent = this;
+	this.text.setTransform(123.6,180.15);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4,p:{startPosition:0}}]}).to({state:[{t:this.instance_4,p:{startPosition:65}},{t:this.text}]},65).wait(235));
 
 	// slots
 	this.instance_5 = new lib.slots_1("synched",0);
