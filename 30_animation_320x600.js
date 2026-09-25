@@ -82,19 +82,40 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.text = new cjs.Text("ДЛЯ ТЕХ,", "italic bold 60px 'PF Din Text Comp Pro'", "#FF6A00");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 70;
-	this.text.lineWidth = 354;
-	this.text.parent = this;
-	this.text.setTransform(178.9,2);
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FF6A00").s().p("Ag7BbIAmhZIgSAAIAShcIBRAAIgSBaIg3Bbg");
+	this.shape.setTransform(261.975,57.175);
 
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF6A00").s().p("AAEDRIgOh1IgCAAIg7B1IhlAAICBjZIgqjIIBdAAIALBiIAEAAIAwhiIBmAAIh6DIIAvDZg");
+	this.shape_1.setTransform(245.425,36.225);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FF6A00").s().p("AiHDRIBRmhIC+AAIgPBOIhuAAIgQBYIBfAAIgQBOIheAAIgSBfIBtAAIgQBOg");
+	this.shape_2.setTransform(221.025,36.225);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#FF6A00").s().p("AhxDRIBDlTIhAAAIAOhOIDSAAIgQBOIhAAAIhBFTg");
+	this.shape_3.setTransform(200.75,36.225);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#FF6A00").s().p("AgHDRIAfirIgJAAQgQAAgMAQQgMAQgHAYIgkBzIhRAAIAqiHIAIgTQAFgJAGgJQAGgIAIgHQAIgHAJgDQgRgKgJgSQgIgUAAgYQAAgpAMgcQAMgcASgRQAUgSAXgIQAXgIAYAAIBtAAIhOGhgAADh1QgQAOAAAeQABAVAMAHQAMAHAPAAIAMAAIAShcIgPAAQgXAAgQANg");
+	this.shape_4.setTransform(159.95,36.225);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#FF6A00").s().p("AihCbQAWgLAOgNQAOgNAJgQQAKgRAGgUQAHgUAEgZIAujrIC/AAIhRGhIhPAAIBClTIgqAAIgfCdQgIArgLAhQgKAhgQAXQgPAXgVAQQgVAPgdAKg");
+	this.shape_5.setTransform(132.05,36.925);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#FF6A00").s().p("AAvD4IAQhPIifAAIgQBPIhBAAIAciVIAagHQALgHAHgIQAIgIAEgKQAFgKAEgMIAHgcIA7kAIDEAAIhCFSIAfAAIgeCdgAgEADQgGAbgIAYQgJAYgKANIBHAAIAzkEIgzAAg");
+	this.shape_6.setTransform(100.9,40.175);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,357.8,71.7);
+p.nominalBounds = new cjs.Rectangle(84.4,0,189.29999999999998,71.7);
 
 
 (lib.ceshback = function(mode,startPosition,loop,reversed) {
@@ -109,19 +130,36 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.text = new cjs.Text("КЕШБЭК", "italic bold 60px 'PF Din Text Comp Pro'", "#FFFFFF");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 70;
-	this.text.lineWidth = 354;
-	this.text.parent = this;
-	this.text.setTransform(178.9,2);
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AADDRIABh3QAAgZgFgPQgGgPgUAAIgLAAIgiCuIhQAAIBRmhIBPAAIggCsIAIAAQAOAAAKgPQALgOAKgZIAsh0IBQAAIgyB/QgMAfgRARQgTATgSAGQAVAIAKAQQALAQAAAfIAACQg");
+	this.shape.setTransform(250.975,36.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AhNDMQgTgHgMgPQgMgPgEgUQgEgVAFgYIBPgLQgEAWAGAKQAGAMAMAAQAYAAAEgfIANhCIhFAAIAQhPIBFAAIALg9IABgKQAAgFgCgFQgCgFgFgDQgFgEgJABQgNAAgJALQgIALgEAVIhLgOQADgYAJgUQAJgUAPgOQAPgOAUgIQATgIAZAAQAdAAAUAJQAVAIAMAQQAMAPADAVQAEAVgFAZIgmDEQgFAagJAVQgIAWgOAPQgOAOgUAHQgTAIgdAAQgaAAgTgIg");
+	this.shape_1.setTransform(224.2582,36.2);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FFFFFF").s().p("AiCDRIBRmhIC0AAIgPBOIhjAAIgPBLIATAAQAyAAAWAWQAXAVAAAqQAAAlgKAgQgKAhgSAYQgRAZgaAOQgaAOgeAAgAgiCDIARAAQATAAAQgTQARgSAAgnQAAgLgDgHQgDgGgFgDQgFgEgGAAIgNgBIgNAAg");
+	this.shape_2.setTransform(198.525,36.225);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#FFFFFF").s().p("AjJDRIBRmhIBQAAIhCFTIAqAAIBBlTIBPAAIhCFTIArAAIBClTIBPAAIhRGhg");
+	this.shape_3.setTransform(167.225,36.225);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#FFFFFF").s().p("AiHDRIBRmhIC+AAIgPBOIhuAAIgQBYIBfAAIgQBOIheAAIgSBfIBtAAIgQBOg");
+	this.shape_4.setTransform(136.975,36.225);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#FFFFFF").s().p("AADDRIABh3QAAgZgFgPQgGgPgUAAIgLAAIgiCuIhQAAIBRmhIBPAAIggCsIAIAAQAOAAAKgPQALgOAKgZIAsh0IBQAAIgyB/QgMAfgRARQgTATgSAGQAVAIAKAQQALAQAAAfIAACQg");
+	this.shape_5.setTransform(111.825,36.2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,357.8,71.7);
+p.nominalBounds = new cjs.Rectangle(94,0,170.10000000000002,71.7);
 
 
 (lib.Анимация45 = function(mode,startPosition,loop,reversed) {
@@ -176,87 +214,6 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-178.9,-35.7,357.8,71.5);
-
-
-(lib.Анимация43 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Слой_1
-	this.text = new cjs.Text("30 %", "italic bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 194;
-	this.text.lineWidth = 328;
-	this.text.parent = this;
-	this.text.setTransform(0,-102.35);
-
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-166,-104.3,332,208.7);
-
-
-(lib.Анимация42 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Слой_1
-	this.text = new cjs.Text("30 %", "italic bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 194;
-	this.text.lineWidth = 328;
-	this.text.parent = this;
-	this.text.setTransform(0,-102.35);
-
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-166,-104.3,332,208.7);
-
-
-(lib.Анимация41 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Слой_1
-	this.text = new cjs.Text("30 %", "italic bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 194;
-	this.text.lineWidth = 328;
-	this.text.parent = this;
-	this.text.setTransform(0,-102.35);
-
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-166,-104.3,332,208.7);
 
 
 (lib.Анимация32 = function(mode,startPosition,loop,reversed) {
@@ -811,6 +768,33 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-210.6,-173.2,421.29999999999995,346.5);
 
 
+(lib._0_precents = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Слой_1
+	this.text = new cjs.Text("30 %", "italic bold 170px 'PF Din Text Comp Pro'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 194;
+	this.text.lineWidth = 328;
+	this.text.parent = this;
+	this.text.setTransform(166,2);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).to({y:-6},38).to({y:2},36).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,-8,332,216.7);
+
+
 (lib.sport_1 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -974,38 +958,6 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-76,0,921.4,346.5);
-
-
-(lib._0_precents = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Слой_1
-	this.instance = new lib.Анимация41("synched",0);
-	this.instance.setTransform(166,104.35);
-
-	this.instance_1 = new lib.Анимация42("synched",0);
-	this.instance_1.setTransform(166,96.35);
-	this.instance_1._off = true;
-
-	this.instance_2 = new lib.Анимация43("synched",0);
-	this.instance_2.setTransform(166,104.35);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},38).to({state:[{t:this.instance_2}]},36).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,y:96.35},38).wait(37));
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:false},38).to({_off:true,y:104.35},36).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,-8,332,216.7);
 
 
 // stage content:
